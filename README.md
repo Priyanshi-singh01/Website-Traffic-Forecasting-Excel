@@ -1,6 +1,23 @@
-# Website-Traffic-Forecasting-Excel
-## Forecasting Techniques Used
+# YouTube Channel Views Forecasting (Excel)
+This project analyzes historical **YouTube channel view data (2022–2025)** and applies multiple forecasting techniques in **Microsoft Excel** to predict future view trends.  
+The goal of this project is to compare different forecasting methods and understand their effectiveness on real-world time-series data.
+---
 
+## 📊 Project Objective
+To analyze YouTube channel views over time and forecast future trends using multiple Excel-based forecasting techniques.
+
+## Dataset
+- Source: YouTube Channel Views
+- Time period: 2022–2025
+- Metric: Total Views
+- Missing values present in historical data
+
+## Key Insights
+- ETS forecasting captured view seasonality and produced the most reliable results.
+- Polynomial trendline was helpful for understanding non-linear growth patterns.
+-  Comparing multiple methods improved confidence in forecasted YouTube views.
+
+## Forecasting Techniques Used
 This project applies three different forecasting approaches in Microsoft Excel to predict future website traffic:
 
 1. **FORECAST Function**
@@ -22,5 +39,5 @@ This project applies three different forecasting approaches in Microsoft Excel t
    - Generates confidence intervals for more accurate forecasting.
      <img width="1018" height="480" alt="Screenshot 2025-12-30 124134" src="https://github.com/user-attachments/assets/f68c5bc0-93ef-40ae-b166-29406ced7f75" />
 
-
-Among these, the Forecast Sheet (ETS) provides the most reliable results.
+## 👩‍💻 About the Project
+Developed by **Priyanshi Singh** as part of a data analytics learning portfolio, focusing on Excel-based time series forecasting.
